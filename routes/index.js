@@ -32,7 +32,7 @@ export const getRecipeByName = (req, res) => {
 export const getRecipesByIngredients = (req, res) => {
   try {
 
-    const { ingredients } = req.body;
+    const { ingredients } = req.body; 
   
     // Check if ingredients is an array
     if (!ingredients || !Array.isArray(ingredients)) {
